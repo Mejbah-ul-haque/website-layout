@@ -6,17 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Photo Album</title>
     <style>
+        .photo-album{
+            display: flex;
+            flex-wrap: wrap;
+           
+        }
         .photo-frame{
             width: 300px;
-            height: 350px;
-            border: 1px solid lightgray;
-            border-radius: 5px;
+            height: 168px;
+            border: 3px solid lightgray;
+            border-radius: 10px;
+            position: relative;
+            margin: 10px;
         }
         .photo img{
             width: 100%;  
+            border-radius: 10px;
         }
         .photo-detail{
-            padding-left: 10px;
+            display: none;
+            position: absolute;
+            width: 280px;
+            top: 0;
+        }
+        .photo-frame:hover .photo-detail{
+            display: block;
+            background-color: rgba(211, 211, 211, 0.349);
+            width: 100%;
+            color: lightgray;
+        }
+        .photo-detail h3{
+            background-color: rgb(109, 108, 108);
+            text-align: center;
+            padding: 3px;
         }
     </style>
 </head>
@@ -25,6 +47,105 @@
     <section>
         <h3>Sports Album</h3>
         <div class="photo-album">
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/sports.jpg" alt="">
+                </div>
+                <div class="photo-detail">
+                    <h3>This is a sports day</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, omnis quia. Unde, corrupti natus asperiores odit non eos labore soluta ratione! Itaque quidem ex ipsum rerum aperiam doloribus, qui amet.</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/sports.jpg" alt="">
+                </div>
+                <div class="photo-detail">
+                    <h3>This is a sports day</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, omnis quia. Unde, corrupti natus asperiores odit non eos labore soluta ratione! Itaque quidem ex ipsum rerum aperiam doloribus, qui amet.</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/sports.jpg" alt="">
+                </div>
+                <div class="photo-detail">
+                    <h3>This is a sports day</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, omnis quia. Unde, corrupti natus asperiores odit non eos labore soluta ratione! Itaque quidem ex ipsum rerum aperiam doloribus, qui amet.</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/sports.jpg" alt="">
+                </div>
+                <div class="photo-detail">
+                    <h3>This is a sports day</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, omnis quia. Unde, corrupti natus asperiores odit non eos labore soluta ratione! Itaque quidem ex ipsum rerum aperiam doloribus, qui amet.</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/sports.jpg" alt="">
+                </div>
+                <div class="photo-detail">
+                    <h3>This is a sports day</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, omnis quia. Unde, corrupti natus asperiores odit non eos labore soluta ratione! Itaque quidem ex ipsum rerum aperiam doloribus, qui amet.</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/sports.jpg" alt="">
+                </div>
+                <div class="photo-detail">
+                    <h3>This is a sports day</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, omnis quia. Unde, corrupti natus asperiores odit non eos labore soluta ratione! Itaque quidem ex ipsum rerum aperiam doloribus, qui amet.</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/sports.jpg" alt="">
+                </div>
+                <div class="photo-detail">
+                    <h3>This is a sports day</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, omnis quia. Unde, corrupti natus asperiores odit non eos labore soluta ratione! Itaque quidem ex ipsum rerum aperiam doloribus, qui amet.</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/sports.jpg" alt="">
+                </div>
+                <div class="photo-detail">
+                    <h3>This is a sports day</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, omnis quia. Unde, corrupti natus asperiores odit non eos labore soluta ratione! Itaque quidem ex ipsum rerum aperiam doloribus, qui amet.</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/sports.jpg" alt="">
+                </div>
+                <div class="photo-detail">
+                    <h3>This is a sports day</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, omnis quia. Unde, corrupti natus asperiores odit non eos labore soluta ratione! Itaque quidem ex ipsum rerum aperiam doloribus, qui amet.</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/sports.jpg" alt="">
+                </div>
+                <div class="photo-detail">
+                    <h3>This is a sports day</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, omnis quia. Unde, corrupti natus asperiores odit non eos labore soluta ratione! Itaque quidem ex ipsum rerum aperiam doloribus, qui amet.</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="images/sports.jpg" alt="">
+                </div>
+                <div class="photo-detail">
+                    <h3>This is a sports day</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, omnis quia. Unde, corrupti natus asperiores odit non eos labore soluta ratione! Itaque quidem ex ipsum rerum aperiam doloribus, qui amet.</p>
+                </div>
+            </div>
             <div class="photo-frame">
                 <div class="photo">
                     <img src="images/sports.jpg" alt="">
